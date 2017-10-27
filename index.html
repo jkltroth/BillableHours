@@ -53,35 +53,30 @@
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First Name</th>
-                                    <th scope="col">Last Name</th>
-                                    <th scope="col">Username</th>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Start Date</th>
+                                    <th scope="col">Months Worked</th>
+                                    <th scope="col">Monthly Rate ($)</th>
+                                    <th scope="col">Total Billed ($)</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id = "currentEmployees">
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@TwBootstrap</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
+                                    <td>Test</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -108,7 +103,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="bidder-name">Start Date (DD/MM/YY - ex: 01/01/99)</label>
-                                <input class="form-control" id="startDate" type="date">
+                                <input class="form-control" id="startDate" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="bidder-price">Monthly Rate</label>
@@ -130,7 +125,9 @@
     </footer>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script type="text/javascript" src="assets/js/logic.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
